@@ -1,0 +1,23 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 4, 4, 0.041);
+    margin-left: 1rem;
+}
+
+p{
+    width: 6.5rem;
+    border:solid 1px;
+    border-radius:5px;
+}   
+.opicoes{
+
+    border:solid 1px;
+    border-radius:5px;
+
+}
+button{
+display: flex;
+margin:0 auto;
+align-items:center;
+}

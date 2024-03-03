@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"crossorigin="anonymous"></script>
+    <title>Registros de atividades</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="../js/jquery-3.6.4.js"></script>
+	<script src="../js/scripts.js"></script>
+</head>
+<header>
+    <div id="navPlaceHolder"></div>
+</header>
+<body>
+        <div class="titulo">
+            <h3 class="text-body-tertiary" style="margin: 0px 0px 25px;">Extrato de horas das atividades complementares</h3>
+        </div>
+        <div class="aluno" style="border: 1px solid; border-color: gray; display: block; padding: 10px;margin: 10px; border-radius: 5px;">
+            <p style="font-size: 1.5rem;" class="text-body-tertiary">aluno</p>
+            <div class="input-group mb-3">
+                <span class="input-group-text">Matricula</span>
+                <input type="text" class="form-control"  disabled="disabled" placeholder="12345678">
+                <span class="input-group-text">Nome</span>
+                <input type="text" class="form-control" disabled="disabled" placeholder="Jorgin">
+            </div>
+        </div>
+        
+        <div class="tabelas" style="border: 1px solid; border-color: gray;display: block; padding: 10px;margin: 10px; border-radius: 5px;">
+            <div class="tabela-horas">
+                <p style="font-size: 1.5rem; margin-left: 10px;" class="text-body-tertiary">Horas</p>
+                <table class="table table-bordered " style="display: block; margin: 10px 10px; width: 50%;">  
+                    <thead>
+                    <tr>
+                        <th>Carga horária total do curso</th>
+                        <th >175.00 hs</th>
+                        <th>Carga horária total não aprovada</th>
+                        <th >0.0 hs</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>Carga horária total cumprida</th>
+                        <th> 15.00 hs  </th>
+                        <th>Atividades Internas</th>
+                        <th>8.57%</th>
+                    </tr>
+                    <tr>
+                        <th>Carga horária a cumprir</th>
+                        <th>160.hrs</th>
+                        <th>Atividades Externas</th>
+                        <th>0.0%</th>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="tabela-horas-descritivo">
+                <table class="table table-bordered border-dark" style="display: block; margin: 10px 10px; width:97%;" >
+                    <thead>
+                        <tr class="bg-danger">
+                            <th >Título da atividade</th>
+                            <th >Descrição da atividade</th>
+                            <th>Carga horária cumprida</th>
+                            <th >Instituição</th>
+                            <th >Data início evento</th>
+                            <th >Data término evento</th>
+                            <th >Status</th>
+                            <th>Realização</th>
+                            <th >Arquivo</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th>UNIALFA Aula Magna 2022/1 - Segurança nas Redes Sociais</th>
+                            <td>Palestra de Segurança nas Redes Sociais</td>
+                            <td>5.00 hs</td>
+                            <td>UNIALFA PERIMETRAL</td>
+                            <td>23/03/2022</td>
+                            <td>23/03/2022</td>
+                            <td>APROVADO</td>
+                            <td>Interna</td>
+                            <td>Arquivo</td>
+                        </tr>
+                        <tr>
+                            <th>Power BI</th>
+                            <td>Palestra de Power BI </td>
+                            <td>10.00 hs</td>
+                            <td>UNIALFA PERIMETRAL</td>
+                            <td>26/10/2022</td>
+                            <td>26/10/2022</td>
+                            <td>APROVADO</td>
+                            <td>Interna</td>
+                            <td>Arquivo </a></td>
+                        </tr>
+                        <tr>
+                            <th>curso alura JAVA JRE E JDK</th>
+                            <td>JAVA JRE E JDK: COMPILE E EXECUTE O SEUPROGRAMA</td>
+                            <td>8.00 hs</td>
+                            <td>Alura</td>
+                            <td>13/08/2022</td>
+                            <td>15/11/2022</td>
+                            <td>AGUARDANDO ANÁLISE</td>
+                            <td>Externa</td>
+                            <td>Arquivo </a></td>
+                        </tr>
+                        <tr>
+                            <th>Curso Alura Java Orientado a Objeto</th>
+                            <td>JAVA OO: ENTENDENDO A ORIENTAÇÃO A OBJETOS</td>
+                            <td>8.00 hs</td>
+                            <td>Alura</td>
+                            <td>30/10/2022</td>
+                            <td>02/11/2022</td>
+                            <td>AGUARDANDO ANÁLISE</td>
+                            <td>Externa</td>
+                            <td>Arquivo</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+</body>
+</html>

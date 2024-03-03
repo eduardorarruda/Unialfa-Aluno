@@ -1,0 +1,58 @@
+body{
+         background-color: rgba(170, 66, 66, 0.993);
+}
+p {
+    font-family: monospace;
+}
+
+.left{
+    width: 380px; 
+    height: 750px; 
+    background-color: rgb(255, 26, 26);
+    float: left;
+}
+.atalhos{
+    color:rgb(0, 0, 0);
+}
+
+
+.titulo{
+    font-size: 30px; 
+    text-align: center; 
+
+}
+.avisos{
+   margin-top: 7px;
+    border:solid 1px;
+    
+}
+.avisos{
+
+    margin-left: 4px;
+}
+.videoMoti{
+    margin-top: 7px;
+    border:solid 1px;
+}
+.cursando{
+    float: left;   
+}q
+.tituloCursando{
+    color: rgb(0, 0, 0);
+    margin-left: 1rem;
+}
+
+.cursando{
+   
+    border-radius: 5px;
+    background-color: rgb(255, 26, 26);
+    padding: 1rem;
+    width: 200%;
+    margin-left: 1rem;
+    
+}
+
+a{
+    color:black;
+}
+

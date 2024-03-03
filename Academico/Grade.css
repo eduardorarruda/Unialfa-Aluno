@@ -1,0 +1,31 @@
+
+h2{
+    font-size: 1.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+    padding: 0px;
+    margin: auto;
+    background-image: linear-gradient(to right, brown -235%, white);
+}
+.tabela {
+    border-collapse: collapse;
+    margin:auto;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 1px auto;
+    box-shadow: 1px 1px 15px gray;
+}
+th{
+    background-color: #CC0000;
+    color: white;
+}
+
+nav{
+    box-shadow: 1px 1px 15px gray;
+    background-image: linear-gradient(to right, brown -235%, white);
+    padding: 5px;
+}
